@@ -1,0 +1,35 @@
+<svg width="192" height="192" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2E7D32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4CAF50;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="192" height="192" rx="24" fill="url(#bgGradient)"/>
+  
+  <!-- Wallet Icon -->
+  <rect x="48" y="72" width="96" height="64" rx="8" fill="white" opacity="0.9"/>
+  <rect x="48" y="72" width="96" height="16" rx="8" fill="white"/>
+  
+  <!-- Money Symbol -->
+  <text x="96" y="110" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2E7D32" text-anchor="middle">₹</text>
+  
+  <!-- Coins -->
+  <circle cx="72" cy="48" r="12" fill="#FFD700" opacity="0.8"/>
+  <circle cx="120" cy="48" r="12" fill="#FFD700" opacity="0.8"/>
+  <text x="72" y="52" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#B8860B" text-anchor="middle">₹</text>
+  <text x="120" y="52" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#B8860B" text-anchor="middle">₹</text>
+  
+  <!-- Chart Lines -->
+  <polyline points="32,144 64,136 96,152 128,140 160,148" stroke="white" stroke-width="3" fill="none" opacity="0.7"/>
+  <polyline points="32,160 64,156 96,164 128,158 160,162" stroke="#FFD700" stroke-width="2" fill="none" opacity="0.8"/>
+  
+  <!-- Plus/Minus Icons -->
+  <circle cx="168" cy="72" r="8" fill="#4CAF50"/>
+  <text x="168" y="76" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">+</text>
+  
+  <circle cx="24" cy="72" r="8" fill="#f44336"/>
+  <text x="24" y="76" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">-</text>
+</svg>
